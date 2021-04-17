@@ -1,0 +1,16 @@
+var n := leia_inteiro
+
+para i de 0 até n-1 faça
+    para j de 0 até n-1 faça
+        se j <> n-1 então 
+           imprima "* "
+        senão
+           imprima "*"
+        fim
+    fim
+    escreva
+fim
+
+
+
+

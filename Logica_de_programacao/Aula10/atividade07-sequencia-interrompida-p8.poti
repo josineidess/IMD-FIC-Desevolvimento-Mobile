@@ -1,0 +1,36 @@
+var inicio := 0
+var f := 0
+var n := 1
+var cont := 0
+var p_t := 0
+var m_s := 0
+
+enquanto n <> 0 faça
+    n = leia_inteiro
+    se cont == 0 então
+       inicio = n
+       f = n
+       cont = cont + 1
+    senão
+       se n - f == 1 |ou| n - f == -1 então
+           f = n
+           cont= cont + 1
+       senão
+           se p_t == 0 |e| m_s == 0 então
+               p_t = inicio
+               m_s = cont
+           senão
+               se m_s < cont então
+                  p_t = inicio
+                  m_s = cont
+               fim
+           fim
+           cont = 0
+       fim
+    fim
+fim       
+
+escreva "Termo inicial: {p_t}"
+escreva "Maior sequência: {m_s}"
+
+

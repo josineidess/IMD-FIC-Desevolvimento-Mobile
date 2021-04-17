@@ -1,0 +1,9 @@
+var n := leia_inteiro
+
+para valor de 1 até 10 faça
+      escreva "{valor}x{n}={valor * n}"
+fim
+
+
+
+

@@ -1,0 +1,17 @@
+var n := leia_inteiro
+var maior := 0
+
+enquanto n <> 0 faça
+     se n > maior faça
+          maior = n
+      fim
+      n = leia_inteiro
+fim
+
+imprima maior
+
+
+
+
+
+

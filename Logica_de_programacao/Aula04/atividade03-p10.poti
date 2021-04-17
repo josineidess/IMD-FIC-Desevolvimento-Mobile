@@ -1,0 +1,18 @@
+#aula04-atividade03
+
+var mes := leia_inteiro
+
+se mes <> 2 |e| (mes > 0 |e| mes < 13) então
+  se (mes < 8 |e| mes mod 2 == 0) |ou| (mes > 7 |e| mes mod 2 <> 0) então
+    mes := 30
+  senão
+    mes := 31
+  fim
+fim
+
+escolha mes
+  caso 2 => imprima "Mês com 28 dias"
+  caso 30 => imprima "Mês com 30 dias"
+  caso 31 => imprima "Mês com 31 dias"
+  caso_ => imprima "Mês inválido" 
+fim

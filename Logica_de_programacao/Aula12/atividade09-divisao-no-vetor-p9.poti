@@ -1,0 +1,19 @@
+var v := vetor[100]
+var n := leia_inteiro
+var cont := 0
+
+enquanto n <> 0 faça
+    v[cont] = n
+    n = leia_inteiro
+    cont = cont + 1
+fim
+
+para i de cont-2 até 0 passo -1 faça
+     se v[i] mod v[cont-1] == 0 então
+         escreva v[i]
+     fim
+fim
+
+
+
+

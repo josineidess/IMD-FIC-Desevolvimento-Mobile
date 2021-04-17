@@ -1,0 +1,23 @@
+var linha := leia_inteiro
+var cont = 0
+var sequencia = ""
+var cont2 = 0
+
+enquanto cont < linha faça
+      enquanto cont2 < cont +1 faça
+          se cont2 == cont então
+              sequencia = "{sequencia}*"
+          senão
+              sequencia = "{sequencia}* "
+          fim
+          cont2 = cont2 + 1
+      fim
+      sequencia = "{sequencia}\n"
+      cont = cont + 1
+      cont2 = 0
+fim
+
+escreva sequencia
+
+
+

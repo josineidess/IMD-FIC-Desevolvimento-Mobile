@@ -1,0 +1,16 @@
+var x := leia_inteiro
+var y := leia_inteiro
+
+enquanto x <> y faça
+    se x > y faça
+       escreva "decrescente"
+    senão
+       escreva "crescente"
+    fim
+    x = leia_inteiro
+    y = leia_inteiro
+fim
+
+
+
+

@@ -1,0 +1,14 @@
+var n := leia_numero
+var soma := 0
+
+para i de 0 até n faça
+    se i mod 2 <> 0 então
+        soma = soma + i
+    fim
+fim
+
+imprima soma
+
+
+
+

@@ -1,0 +1,13 @@
+var v := vetor[10]
+
+para i de 0 até 9 faça
+    v[i] = leia_inteiro
+fim
+
+para i de 9 até 0 passo -1 faça
+     escreva v[i]
+fim
+
+
+
+

@@ -1,0 +1,13 @@
+
+var n := leia_inteiro
+var cond = n mod 2 == 0
+
+se cond então
+  imprima "{n}"
+senão
+  imprima "{n+1}"
+fim
+
+
+
+

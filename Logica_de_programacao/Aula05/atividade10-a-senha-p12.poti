@@ -1,0 +1,9 @@
+var senha := leia_texto
+
+se senha == "igualdade" então
+   imprima "Senha correta"
+fim
+
+
+
+

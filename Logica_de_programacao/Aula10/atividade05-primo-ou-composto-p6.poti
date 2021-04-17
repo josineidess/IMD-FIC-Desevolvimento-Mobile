@@ -1,0 +1,18 @@
+var n := leia_inteiro
+
+para i de 2 até n faça
+     se ((i mod 2 == 0 |e| i <> 2) |ou| (i mod 3 == 0 |e| i <> 3) |ou| (i mod 5 == 0 |e| i <> 5) |ou| (i mod 7 == 0 |e| i <> 7)) então
+        escreva "{i} composto" 
+        para j de 2 até i-1 faça
+             se i mod j == 0 então
+                 escreva j
+             fim
+        fim
+     senão
+        escreva "{i} primo"
+     fim
+ fim
+
+
+
+

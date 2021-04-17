@@ -1,0 +1,23 @@
+var v := vetor[30]
+
+para i de 0 até 29 faça
+    v[i] = leia_inteiro
+fim
+
+para i de 0 até 29 faça
+    se v[i] mod 2 == 0 então
+       imprima "{v[i]}, "
+    fim
+fim
+
+escreva 
+
+para i de 0 até 29 faça
+    se v[i] mod 2 <> 0 então
+       imprima "{v[i]}, "
+    fim
+fim
+
+
+
+

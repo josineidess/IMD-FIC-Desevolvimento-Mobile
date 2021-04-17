@@ -1,0 +1,12 @@
+soma(x: inteiro, y: inteiro) 	# Declaração de função com corpo
+  var d := x + y						 # Comandos executados na função
+  retorne d         		    		 # A última linha da função possui o comando de retorno
+fim										  	  # O comando fim, ao final, define o 'limite' da função declarada
+
+var a := 5
+var b := 9
+var c := 0
+
+c := soma(a,b)
+
+escreva "A soma de {a} + {b} é {c}"

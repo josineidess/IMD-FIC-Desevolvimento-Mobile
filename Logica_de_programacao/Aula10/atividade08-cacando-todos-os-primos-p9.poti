@@ -1,0 +1,16 @@
+var n := leia_inteiro
+var cont := 2
+var primo = true
+
+enquanto cont < n faça
+    se ((cont mod 2 == 0 |e| cont <> 2) |ou| (cont mod 3 == 0 |e| cont <> 3) |ou| (cont mod 5 == 0 |e| cont <> 5) |ou| (cont mod 7 == 0 |e| cont <> 7)) então
+        primo = false
+    fim
+    se primo então
+       escreva cont
+    fim
+    cont = cont + 1
+    primo = true
+fim
+
+

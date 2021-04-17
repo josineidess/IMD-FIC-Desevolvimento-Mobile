@@ -1,0 +1,28 @@
+var n = 0
+var sequencia = "0"
+var anterior = 0
+var cont = 0
+
+enquanto cont < 6 faça
+    n = leia_inteiro
+    se cont == 0 então
+       sequencia = "{n}"
+       anterior = n
+       cont = cont + 1
+    senão
+       se n - anterior == 1 |ou| n - anterior == -1 então 
+           sequencia = "{sequencia}\n{n}"
+           cont = cont + 1
+           anterior = n
+       senão
+          cont = 0
+       fim
+    fim
+fim
+
+escreva sequencia
+    
+    
+
+
+

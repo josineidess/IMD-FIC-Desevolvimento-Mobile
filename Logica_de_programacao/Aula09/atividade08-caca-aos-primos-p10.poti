@@ -1,0 +1,15 @@
+var atual := leia_inteiro
+var primo = true
+
+se ((atual mod 2 == 0 |e| atual <> 2) |ou| (atual mod 3 == 0 |e| atual <> 3) |ou| (atual mod 5 == 0 |e| atual <> 5) |ou| (atual mod 7 == 0 |e| atual <> 7)) então
+        primo = false
+fim
+ 
+se primo então
+     imprima "número é primo"
+senão
+    imprima "número não é primo"
+fim    
+
+
+

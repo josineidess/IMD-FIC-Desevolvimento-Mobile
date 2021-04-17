@@ -1,0 +1,25 @@
+var m := matriz[10,10]
+
+para i de 0 até 9 faça
+    para j de 0 até 9 faça
+        m[i][j] = leia_inteiro
+    fim
+fim
+
+var menor = m[0][0]
+var linha = 0
+var coluna = 0
+
+para i de 0 até 9 faça
+    para j de 0 até 9 faça
+        se m[i][j] < menor então
+           menor = m[i][j]
+           linha = i
+           coluna = j
+        fim
+    fim
+fim
+
+escreva "{menor} está na linha {linha} e coluna {coluna}"
+
+

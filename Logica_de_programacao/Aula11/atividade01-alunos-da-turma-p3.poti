@@ -1,0 +1,24 @@
+var nome1 := leia_texto
+var nome2 := leia_texto
+var nome3 := leia_texto
+var nome4 := leia_texto
+var nome5 := leia_texto
+var nome6 := leia_texto
+var nome7 := leia_texto
+var nome8 := leia_texto
+var nome9 := leia_texto
+var nome10 := leia_texto
+
+escreva nome1
+escreva nome2
+escreva nome3
+escreva nome4
+escreva nome5
+escreva nome6
+escreva nome7
+escreva nome8
+escreva nome9
+escreva nome10
+
+
+

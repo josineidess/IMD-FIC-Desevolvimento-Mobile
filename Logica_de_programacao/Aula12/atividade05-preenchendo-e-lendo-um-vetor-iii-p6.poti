@@ -1,0 +1,47 @@
+var impares := vetor[10]
+var pares := vetor[10]
+var geral := vetor[15]
+
+para i de 0 até 14 faça
+    geral[i] = leia_inteiro
+fim
+
+var contp = 0
+var conti = 0
+
+para i de 0 até 14 faça
+    se geral[i] mod 2 == 0 então
+        se contp == 10 então
+            para j de 0 até 8 faça
+                 pares[j] = pares[j+1]
+            fim
+            pares[9] = geral[i]
+        senão
+           pares[contp] = geral[i]
+           contp = contp + 1
+        fim
+    senão
+        se conti == 10 então
+            para j de 0 até 8 faça
+                impares[j] = impares[j+1]
+            fim
+            impares[9] = geral[i]
+        senão     
+           impares[conti] = geral[i]
+           conti = conti + 1
+        fim
+    fim
+fim
+
+para i de 0 até conti - 1 faça
+     se i == conti - 1 então
+         escreva "{impares[i]} "
+     senão
+         imprima "{impares[i]} "
+     fim
+fim
+
+
+para i de 0 até contp - 1 faça
+     imprima "{pares[i]} "
+fim

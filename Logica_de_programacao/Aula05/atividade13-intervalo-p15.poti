@@ -1,0 +1,13 @@
+var n1 := leia_inteiro
+var n2 := leia_inteiro
+var n3 := leia_inteiro
+ 
+se n3 > n1 |e| n3 < n2 então
+    escreva "Dentro do Intervalo entre {n1} e {n2}"
+senão
+    escreva "Fora do Intervalo entre {n1} e {n2}"
+fim
+
+
+
+

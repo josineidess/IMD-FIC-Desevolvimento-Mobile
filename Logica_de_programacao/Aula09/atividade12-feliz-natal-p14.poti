@@ -1,0 +1,12 @@
+var indice := leia_inteiro
+
+imprima "Feliz Nat"
+para i de 1 até indice faça
+    imprima "a"
+fim
+imprima "l!"
+
+
+
+
+

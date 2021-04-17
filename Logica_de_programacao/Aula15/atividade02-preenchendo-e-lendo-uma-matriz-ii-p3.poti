@@ -1,0 +1,51 @@
+var m := matriz[5,5]
+var soma := [0,0,0,0,0]
+
+para i de 0 até 4 faça
+    para j de 0 até 4 faça
+        m[i][j] = leia_inteiro
+    fim
+fim
+
+para i de 0 até 4 faça
+    para j de 0 até 4 faça
+        se j <> 4 então
+           imprima "{m[i][j]} "
+        senão
+           imprima "{m[i][j]}"
+        fim
+    fim
+    escreva
+fim
+ 
+escreva
+
+para i de 0 até 4 faça
+    para j de 0 até 4 faça
+        se j <> 4 então
+           imprima "{m[j][i]} "
+        senão
+           imprima "{m[j][i]}"
+        fim
+    fim
+    escreva
+fim
+ 
+para i de 0 até 4 faça
+    para j de 0 até 4 faça
+        soma[i] = soma[i] + m[i][j]
+    fim
+fim
+
+escreva
+
+para i de 0 até 4 faça 
+   se i <> 4 então
+      imprima "{soma[i]} "
+   senão
+      imprima "{soma[i]}"
+   fim
+fim
+
+escreva
+

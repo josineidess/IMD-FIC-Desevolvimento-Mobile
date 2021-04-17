@@ -1,0 +1,11 @@
+
+var n := leia_inteiro
+
+se n < 100 então
+  imprima "{n + 100}"
+senão
+  imprima "{n - 100}"
+fim
+
+
+

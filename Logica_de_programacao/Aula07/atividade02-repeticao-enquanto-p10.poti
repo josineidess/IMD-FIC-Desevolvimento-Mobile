@@ -1,0 +1,20 @@
+var n := leia_inteiro
+var soma := 0
+var cont := 0
+
+enquanto cont <= n faça
+    se cont mod 2 == 0 então
+        soma = soma + cont
+    fim
+    cont = cont + 1
+fim
+
+imprima soma
+
+
+
+
+
+
+
+

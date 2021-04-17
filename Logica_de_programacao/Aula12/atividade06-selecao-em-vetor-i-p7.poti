@@ -1,0 +1,30 @@
+var n := vetor[20]
+var media := 0
+
+para i de 0 até 19 faça
+    n[i] := leia_numero
+    media = media + n[i]
+fim
+
+media = media / 20
+escreva media
+
+para i de 0 até 19 faça
+    se n[i] > media então
+        imprima "{n[i]} "
+    fim
+fim
+
+escreva
+
+para i de 0 até 19 faça
+    se n[i] < media então
+        imprima "{n[i]} "
+    fim
+fim
+
+
+
+
+
+

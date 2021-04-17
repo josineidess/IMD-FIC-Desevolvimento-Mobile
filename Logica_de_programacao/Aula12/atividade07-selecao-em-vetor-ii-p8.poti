@@ -1,0 +1,25 @@
+var v := vetor[100]
+var cont := 0
+var n := leia_inteiro
+
+enquanto n <> 0 faça
+    v[cont] = n
+    n = leia_inteiro
+    cont = cont + 1
+fim
+
+para i de 0 até cont-1 faça
+    imprima "{v[i]} "
+fim
+
+escreva
+
+para i de cont-1 até 0 passo -1 faça
+     se v[i] < 0 então
+         imprima "{v[i]*-1} "   
+     senão
+         imprima "{v[i]} "
+     fim
+fim
+
+

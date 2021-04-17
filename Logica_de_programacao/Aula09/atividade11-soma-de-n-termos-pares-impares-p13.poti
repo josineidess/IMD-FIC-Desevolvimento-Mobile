@@ -1,0 +1,24 @@
+var x := leia_inteiro
+var y :=leia_inteiro
+var cont := 0
+var atual := y
+var soma := 0
+var ehPar := true
+
+se x mod 2 <> 0 então
+   ehPar = false
+fim
+
+enquanto cont < x faça
+    se (atual mod 2 == 0 |e| ehPar == true) |ou| (atual mod 2 <> 0 |e| ehPar == false) então
+        soma = soma + atual
+        cont = cont + 1
+    fim
+    atual = atual + 1
+fim
+
+imprima soma
+
+
+
+

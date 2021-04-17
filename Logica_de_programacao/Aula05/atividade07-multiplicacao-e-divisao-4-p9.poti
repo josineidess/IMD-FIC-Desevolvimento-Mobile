@@ -1,0 +1,10 @@
+var n1 := leia_numero
+var n2 := leia_numero
+var n3 := leia_numero
+
+var media_ponderada := (n1 * 4 + n2 * 5 + n3 * 6)/15
+
+imprima "{media_ponderada}"
+
+
+

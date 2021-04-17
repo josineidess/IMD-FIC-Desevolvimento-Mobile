@@ -1,0 +1,35 @@
+
+#aula04-atividade02
+
+var peso := leia_numero
+var altura := leia_numero
+var imc = peso / (altura*altura)
+
+se imc < 17 então
+  imprima "Muito abaixo do peso"
+senão
+  se imc < 18.5 então
+    imprima "Abaixo do peso"
+  senão
+    se imc < 25 então
+      imprima "Peso normal"
+    senão
+      se imc < 30 então
+        imprima "Acima do peso"
+      senão
+        se imc < 35 então
+          imprima "Obesidade I"
+        senão
+          se imc < 40 então
+            imprima "Obesidade II (severa)"
+          senão
+            imprima "Obesidade III (mórbida)"
+          fim
+        fim
+      fim
+    fim
+  fim
+fim
+
+
+

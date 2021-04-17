@@ -1,0 +1,11 @@
+var n := leia_inteiro
+
+para i de 1 até n -1 faça
+     se n mod i == 0 então
+        escreva i
+     fim
+fim
+
+
+
+

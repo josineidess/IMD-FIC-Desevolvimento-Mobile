@@ -1,0 +1,21 @@
+
+var n := leia_inteiro
+var soma := 0
+
+para atual de 0 até n faça
+    se |Não| ((atual mod 2 == 0 |e| atual <> 2) |ou| (atual mod 3 == 0 |e| atual <> 3) |ou| (atual mod 5 == 0 |e| atual <> 5) |ou| (atual mod 7 == 0 |e| atual <> 7)) então
+        soma = soma + atual
+    fim
+ fim
+ 
+imprima soma-1
+      
+
+
+
+
+
+
+
+
+

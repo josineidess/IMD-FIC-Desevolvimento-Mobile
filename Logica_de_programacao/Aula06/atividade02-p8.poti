@@ -1,0 +1,19 @@
+var palavra := leia_texto
+var cond1 := palavra <> "acertadamente"
+var cond2 := palavra <> "sair"
+var cond := cond1 |e| cond2
+
+enquanto cond faça
+    palavra := leia_texto
+    cond1 := palavra <> "acertadamente"
+    cond2 := palavra <> "sair"
+    cond := cond1 |e| cond2
+fim
+
+se palavra == "acertadamente" então
+   escreva "Acesso concedido"
+senão
+   escreva "Programa encerrado"
+fim
+
+
