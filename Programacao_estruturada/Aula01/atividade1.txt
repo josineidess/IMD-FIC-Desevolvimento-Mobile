@@ -1,0 +1,12 @@
+1. Qual o nome da linguagem que originou Java? Qual o seu intuito original?
+
+R: Oak também conhecida como carvalho. Tinha o intuito de antecipar a integração
+entre computadores e eletrodomésticos.
+
+2. A sintaxe da linguagem Java foi desenvolvida baseada em alguma outra linguagem de mercado? Qual? E por qual motivo?
+
+R: Sim, foi em C, e o principal motivo é a facilidade de migração dos programadores entre as linguagens.
+
+3. Cite características da linguagem de programação Java.
+
+É orientada a objetos,tem diversos recursos e tem portabilidade(roda em diversas plataformas).
