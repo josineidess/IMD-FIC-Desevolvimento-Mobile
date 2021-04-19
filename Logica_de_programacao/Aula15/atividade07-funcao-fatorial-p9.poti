@@ -1,0 +1,16 @@
+
+fatorial(n2: inteiro, n1: inteiro)
+   var vfat = n1
+   var k = n1 - 1
+   enquanto k != 0 faça
+      vfat = vfat * k
+      k = k - 1
+   fim
+   se vfat == n2 então
+      retorne "s"
+   senão
+      retorne "n"
+   fim
+fim
+
+

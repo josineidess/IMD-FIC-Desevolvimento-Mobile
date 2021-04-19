@@ -1,0 +1,5 @@
+produto(n1: inteiro, n2: inteiro)
+   retorne n1 * n2
+fim
+
+ 

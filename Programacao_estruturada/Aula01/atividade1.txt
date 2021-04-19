@@ -9,4 +9,4 @@ R: Sim, foi em C, e o principal motivo é a facilidade de migração dos program
 
 3. Cite características da linguagem de programação Java.
 
-É orientada a objetos,tem diversos recursos e tem portabilidade(roda em diversas plataformas).
+R: É orientada a objetos,tem diversos recursos e tem portabilidade(roda em diversas plataformas).
