@@ -1,0 +1,19 @@
+ehPrimo(n: inteiro)
+    var primo = true
+    var cont = 2
+    enquanto (primo |e| cont < n) faça
+        se n mod cont == 0 então
+            primo = false
+        fim
+        cont = cont + 1
+    fim
+    se primo então
+        retorne verdadeiro
+    senão
+        retorne falso
+    fim
+fim
+         
+
+
+
