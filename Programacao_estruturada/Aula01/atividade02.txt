@@ -1,0 +1,9 @@
+1. O processo de compilação é a parte responsável por traduzir a linguagem de alto nível
+para linguagem de baixo nível, também conhecida como de máquina. Primeiro o compilador analisa 
+e depois sintetiza o código, e após isso gera um arquivo executável. A vantagem é que esse processo
+é bem rápido, já que traduz o código todo de uma vez, já a desvantagem é que como o código não é 
+debugado, pode ter muitos erros nele.
+
+2. O interpretador assim como o compilador traduz o código, porém ele não faz tudo de uma vez. Ele vai
+traduzindo durante a execução do código, e desse modo podendo capturar erros. A vantagem é esse mecanismo 
+de encontrar erros, e a desvantagem, seria a demora em relação ao compilador.
