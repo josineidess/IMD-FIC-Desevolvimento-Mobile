@@ -1,0 +1,3 @@
+1. Java é uma linguagem tanto compilado como interpretada, já que o compilador traduz o código
+java para bytecode(class) e o JVM(Máquina virgual Java) interpreta o código possibilitando sua
+portabilidade, para diversas plataformas.
