@@ -1,0 +1,4 @@
+1. Um programa é contituido pela declaração de um tipo de classe seguido por seu nome.
+Dentro da classe tem os métodos e atributos, os métodos e atributos assim a classe, são tipados.
+
+2. Programa executado com sucesso.
