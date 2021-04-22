@@ -1,0 +1,29 @@
+1.
+
+1. int
+2. String
+3. float
+4. String
+5. int
+6. int
+7. char
+8. float
+9. String
+10. char
+11. float
+12. int
+
+2.
+
+1. valido
+2. invalido, começa com número
+3. valido
+4. valido
+5. valido
+6. inválido, os caracteres especiais que podem ser utilizados são: (_ e $)
+7. inválido, os caracteres especiais que podem ser utilizados são: (_ e $)
+8. inválido, os caracteres especiais que podem ser utilizados são: (_ e $)
+9. inválido, não pode ter espaços
+10. inválido, não pode usar acentos
+11. válido
+12. válido
