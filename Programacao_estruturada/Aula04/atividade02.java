@@ -24,14 +24,14 @@ public class Aula4Atividade2 {
   public static void pessoa_mais_velha() {
     String pessoa1, pessoa2;
     int idade1, idade2;
-    System.out.println("-----Atividade 1-----");
+    System.out.println("-----Atividade 2-----");
     System.out.println("Pessoa 1: ");
     Scanner leitor = new Scanner(System.in);
     pessoa1 = leitor.nextLine();
     System.out.println("Idade 1: ");
     idade1 = leitor.nextInt();
     System.out.println("Pessoa 2: ");
-    pessoa2 = leitor.nextLine();
+    pessoa2 = leitor.next();
     System.out.println("Idade 2: ");    
     idade2 = leitor.nextInt();
     if(idade1 > idade2) {
